@@ -1,3 +1,34 @@
-.skill-header{
-  font-weight: bold;
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar section */
+.navbar-top {
+    background-color: #cccccc;
+}
+
+
+/* Skills*/
+#skills {
+  position: relative;
+  text-align: center;
+}
+
+.skill-box{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+.skill-icon{
+  width:4rem;
+  height:4rem;
+}
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+#footer{
+  text-align: center;
 }
