@@ -6,12 +6,33 @@ html {
 .navbar-top {
     background-color: #cccccc;
 }
-
-
+.right-aligned{
+  display: float
+  /* text-align: right */
+}
+.image{
+  display: inline;
+  float:right;
+  width: 10%;
+}
 /* Skills*/
 #skills {
   position: relative;
+  display: inline;
   text-align: center;
+}
+.nav-link{
+  display: block;
+  padding: 0;
+}
+
+.resume{
+  color : red;
+  padding: 0 1rem;
+}
+.resume:hover{
+  color:red;
+  text-decoration: underline;
 }
 
 .skill-box{
@@ -19,9 +40,24 @@ html {
   margin-bottom: 2rem;
 
 }
+.skill-box:hover{
+  color:#0056b3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skill-list{
+  display: flex;
+}
+
 .skill-icon{
   width:4rem;
   height:4rem;
+}
+
+.skill-icon:hover{
+  background:#0056b3;
+  object-fit: cover;
 }
 /* Footer Section */
 
@@ -31,4 +67,5 @@ html {
 
 #footer{
   text-align: center;
+  background-color: #cccccc;
 }
