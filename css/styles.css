@@ -82,7 +82,7 @@ img {
 .skill-box{
   margin: 2rem;
   background-color: white !important;
-  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+  box-shadow: 0px 10px 27px 3px rgba(180, 180, 180, 0.3);
   position: relative;
   top: 7px;
   width: 360px;
@@ -116,6 +116,12 @@ img {
   text-align: center;
   background-color: #2d2d2d;
 }
+
+/* timeline section  */
+
+.work-experience{
+  margin-bottom:6rem;
+}
 .timeline{
   padding-top: 5rem;
 }
@@ -126,7 +132,7 @@ img {
 
 .timeline ul li .content {
   background-color: white !important;
-  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+  box-shadow: 0px 10px 27px 3px rgba(180, 180, 180, 0.3);
   position: relative;
   top: 7px;
   width: 360px;
@@ -134,14 +140,10 @@ img {
 }
 
 .timeline ul li {
-  /* background: #f9f9ff; */
-  /* position: relative; */
+  margin-top:-4rem;
   text-align: center;
-  /* position:relative; */
   left: 50%;
   margin-left: -width/2;
-  /* margin: 0 auto; */
-  /* width: 2px; */
   padding-bottom: 40px;
   list-style-type: none;
 }
@@ -154,6 +156,3 @@ img {
 .timeline ul li:nth-child(even) .content {
   left:12rem;
 }
-
-
-
