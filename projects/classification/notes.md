@@ -1,0 +1,13 @@
+what to include in this one?
+- have weight of evidence and information value
+- use the breast cancer dataset, as it is widely known
+  - have to predict a categorical variable from only numeric ones
+- use and compare different algos (logistic regression, decision trees, boosted decision tree, SVC, etc.)
+- have shiny charts for exploration and model evaluation
+  - EDA: should feature dummy variable creation and some transformation, outlier handling etc.
+  - use PCA to reduce features and identify main features
+  - eda: use bar charts to iterate through all single columns to identify relevant cols
+- use latex to describe the math behind logistic regression, decision tree and boosting.
+- write a separate function to train and evaluate each model
+    - train_logreg(), train_dec_tree() etc and evaluate_models(*args)
+- 
